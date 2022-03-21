@@ -1,0 +1,16 @@
+table,
+th,
+tbody,
+tr,
+td {
+  border: 1px solid #000;
+}
+
+.table-container {
+  width: 300px;
+  margin-top: 50px;
+}
+
+#mainTable {
+  width: 100%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="form-container">
+        <form>
+          <label for="number">N° de producto</label>
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Número"
+            min="1"
+          />
+          <label for="number">Descripción</label>
+          <input
+            type="text"
+            name="description"
+            id="description"
+            placeholder="Descripción"
+          />
+          <select name="products" id="products">
+            <option value="">Seleccionar</option>
+          </select>
+          <button id="formBtn">Enviar</button>
+        </form>
+      </section>
+      <section class="table-container">
+        <table id="mainTable">
+          <thead>
+            <th>N</th>
+            <th>Descripcion</th>
+            <th>Producto</th>
+          </thead>
+          <tbody id="mainTableBody"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
